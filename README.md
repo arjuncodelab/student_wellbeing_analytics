@@ -25,8 +25,7 @@ Implemented strict CHECK constraints and Foreign Key relationships to ensure zer
 
 |Max	|51.38	|7.04|
 
-- Brain Rot Productivity Tax
-Goal: Do students with above-average 'Brain Rot' scores perform worse?
+- Brain Rot Productivity Tax | Goal: Do students with above-average 'Brain Rot' scores perform worse?
 
 Insight: Yes. Students with above-average Brain Rot (26.14) show 8.29 average productivity, while those below average (11.75) achieve 9.43 average productivity.
 
@@ -36,8 +35,7 @@ Insight: Yes. Students with above-average Brain Rot (26.14) show 8.29 average pr
 
 |Below or Equal Avg Brain |Rot	9.43	|11.75|
 
-- Behavioral Spending & Ad Engagement
-Goal: Is ad clicking a stronger driver of spending than family income?
+- Behavioral Spending & Ad Engagement | Goal: Is ad clicking a stronger driver of spending than family income?
 
 Insight: High ad engagement drives higher digital spending regardless of family income level. Students with high ad engagement show significantly higher impulse purchase scores.
 
@@ -59,3 +57,6 @@ Insight: High ad engagement drives higher digital spending regardless of family 
 |High Risk	|7.95	|3.0	|68.23%|
 
 |Standard Risk	|4.86	|1.13	|90.77%|
+
+- Economic_resilience | Goal: Compare how family income affects wellbeing across different country development levels.
+- Insight: 
