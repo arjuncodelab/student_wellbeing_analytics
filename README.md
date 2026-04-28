@@ -11,7 +11,7 @@ Implemented strict CHECK constraints and Foreign Key relationships to ensure zer
 
 - The Insights: 03_queries_used_for_analytical_insights
 
-###### Key Findings
+#### Key Findings
 - Wellbeing Tipping Point
 Goal: Identify if there is a 'cliff' where internet usage destroys wellbeing.
 
