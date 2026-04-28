@@ -9,7 +9,7 @@ Transformed a flat 'Mixed' dataset into a relational schema (Students, Countries
 - **Data Integrity**: 02_data_etl.sql
 Implemented strict CHECK constraints and Foreign Key relationships to ensure zero data leakage.
 
-- **The Insights**: 03_queries_used_for_analytical_insights
+- **The Insights**: 03_queries_used_for_analytical_insights.sql
 
 #### Key Findings
 - **Wellbeing Tipping Point** | _Goal_: Identify if there is a 'cliff' where internet usage destroys wellbeing.
@@ -40,13 +40,10 @@ Students in the high brain rot group score up to Max of 59 out of 100, indicatin
 
 
 -** Multi-Factor Academic Risk** | _Goal_: Identify the volume of students meeting the "Triple Threat" criteria: High Late Night usage + Low attendance + High Anxiety.
-- **Insight**: The high-risk group shows a 63% anxiety increase and attendance collapse of 22 percentage points. These students are experiencing a vicious cycle: late-night scrolling which leaad to disrupted sleep -> reduced class attendance -> academic anxiety -> more scrolling. Though statistically rare, they represent failures and should be flagged for early support.
+- **Insight**: Only 53 students out of 500,000 (0.01%) meet all three criteria simultaneously, but they are in severe academic and mental health crisis. These high-risk students show an anxiety score of 7.95 compared to 4.86 for standard-risk students—a 63% increase. More alarming, their class attendance rate collapses to 68.23% versus 90.77% for standard-risk peers, a 22-percentage-point difference.
 
-|Risk Level|	Student Count| Avg Anxiety	Attendance Rate|
+These students are trapped in a vicious psychological cycle: late-night internet scrolling disrupts sleep patterns -> sleep deprivation reduces motivation for daytime classes -> missed classes increase academic anxiety -> heightened anxiety drives more late-night escapism through scrolling -> the cycle deepens. Though statistically rare, these 53 students represent early intervention failures and should be flagged by academic advisors and counseling services for immediate support. Early intervention could break the cycle before it becomes irreversible.
 
-|High Risk|53|7.95|68.23%|
-
-|Standard Risk|499,947|4.86|90.77%| 
 
 - **Economic_resilience** | _Goal_: Compare how family income affects wellbeing across different country development levels.
 - **Insight**:  Students in underdeveloped regions report 7-point higher wellbeing than developed nations despite lower overall infrastructure. Possible explanations:
@@ -57,17 +54,9 @@ Students in the high brain rot group score up to Max of 59 out of 100, indicatin
 - _**Implication**_: Digital wellbeing may be inversely correlated with development level, challenging the narrative that "more technology = better outcomes."
 
 - **Device Access Parity** | _Goal_: Measure the Academic Risk differene between students.
-- **Insight**: Access paradox—giving students more devices increases risk. Shared devices create natural friction: waiting for family members, public accountability, and limited availability. This unintentionally protects users from compulsive doom-scrolling. Students with Both(smartphones + laptops) are riskier despite having better tools.
+- **Insight**: Giving students more devices increases their risk profiles and lowers productivity. Students with shared device access show the lowest risk score (0.09) and highest productivity (8.90). Students with only smartphones increase risk to 0.11 with productivity at 8.84. Laptop-only users show 0.12 risk and 8.77 productivity. Students with both smartphones and laptops—seemingly the best-equipped—show the highest risk (0.13) and lowest productivity (8.74).
 
-|Device Access|Avg Risk Score|Avg Productivity|
-
-|Shared Device|0.09|8.90|
-
-|Smartphone|0.11|8.84|
-
-|Laptop|0.12|8.77|
-
-|Both (Phone + Laptop)|0.13|8.74|
+This suggests that shared devices create natural friction that protects users: waiting for family members to finish, and limited availability unintentionally prevent compulsive doom-scrolling. Conversely, unlimited personal device access removes all friction, enabling addictive behavior. Students with both phone and laptop face no barriers to constant connectivity and are 44% riskier than shared-device users despite having superior tools.
 
 -**_Implication_**: Policy should consider "friction as a feature"—controlled device access may be more protective than unlimited access.
 
