@@ -39,7 +39,7 @@ Students in the high brain rot group score up to Max of 59 out of 100, indicatin
 **Insight**: A student from a low-income family with high ad engagement ($35.62/month) spends more than a high-income student with low ad engagement ($53.94 is still lower than $100). More importantly, impulse scores remain consistently high (5.3-5.6) across all income levels when ad engagement is high, proving that algorithmic manipulation bypasses socioeconomic safeguards.
 
 
--** Multi-Factor Academic Risk** | _Goal_: Identify the volume of students meeting the "Triple Threat" criteria: High Late Night usage + Low attendance + High Anxiety.
+-**Multi-Factor Academic Risk** | _Goal_: Identify the volume of students meeting the "Triple Threat" criteria: High Late Night usage + Low attendance + High Anxiety.
 - **Insight**: Only 53 students out of 500,000 (0.01%) meet all three criteria simultaneously, but they are in severe academic and mental health crisis. These high-risk students show an anxiety score of 7.95 compared to 4.86 for standard-risk students—a 63% increase. More alarming, their class attendance rate collapses to 68.23% versus 90.77% for standard-risk peers, a 22-percentage-point difference.
 
 These students are trapped in a vicious psychological cycle: late-night internet scrolling disrupts sleep patterns -> sleep deprivation reduces motivation for daytime classes -> missed classes increase academic anxiety -> heightened anxiety drives more late-night escapism through scrolling -> the cycle deepens. Though statistically rare, these 53 students represent early intervention failures and should be flagged by academic advisors and counseling services for immediate support. Early intervention could break the cycle before it becomes irreversible.
