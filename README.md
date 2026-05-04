@@ -14,14 +14,13 @@ Implemented strict CHECK constraints and Foreign Key relationships to ensure zer
 #### Key Findings
 - **Wellbeing Tipping Point** | _Goal_: Identify if there is a 'cliff' where internet usage destroys wellbeing.
 - **Insight**: Students with 3 hours of daily internet access report the highest wellbeing scores (63.1), representing optimal digital health. However, as usage increases, wellbeing deteriorates steadily:
- 
-Safe Zone 3 hours/day -> Wellbeing: 63.1  
+  Safe Zone 3 hours/day -> Wellbeing: 63.1
 
-Optimal Zone 4.5 hours/day -> Wellbeing: 58.88
+  Optimal Zone 4.5 hours/day -> Wellbeing: 58.88
 
-Warning Zone 5.5 hours/day -> Wellbeing: 55.64
+  Warning Zone 5.5 hours/day -> Wellbeing: 55.64
 
-Danger Zone 7 hours/day -> Wellbeing: 51.38 | Critical threshold
+  Danger Zone 7 hours/day -> Wellbeing: 51.38 | Critical threshold
 
 Beyond 7 hours, students experience a 10-point wellbeing decline from the optimal range. This suggests a "danger zone" where excessive screen time becomes psychologically destructive.
 
