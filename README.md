@@ -1,9 +1,8 @@
 ## Student Wellbeing & Digital Behavior Analysis
 #### Project Goal
-##### - [Dataset](https://www.kaggle.com/datasets/ea5e73b3f8466a5cedaf3eaf45e5453cf91ab78cf77f12a7ed68ae829c14f402)
 In an era of increasing digital consumption, how does "Doom-Scrolling" affect the academic success of students globally? I designed a relational database to audit 50,000+ student records, identifying the tipping point where digital addiction leads to academic failure.
 
-#### The Architecture
+#### The Architecture: : [Dataset](https://www.kaggle.com/datasets/ea5e73b3f8466a5cedaf3eaf45e5453cf91ab78cf77f12a7ed68ae829c14f402)
 - **Normalization**: 01_schema_design.sql
 Transformed a flat 'Mixed' dataset into a relational schema (Students, Countries, Academics, Mental Health, Financial Behaviour).
 
