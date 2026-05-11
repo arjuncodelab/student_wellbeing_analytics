@@ -4,7 +4,7 @@ In an era of increasing digital consumption, how does "Doom-Scrolling" affect th
 
 #### The Architecture: : [Dataset](https://www.kaggle.com/datasets/ea5e73b3f8466a5cedaf3eaf45e5453cf91ab78cf77f12a7ed68ae829c14f402)
 - **Normalization**: 01_schema_design.sql
-Transformed a flat 'Mixed' dataset into a relational schema (Students, Countries, Academics, Mental Health, Financial Behaviour).
+Transformed a flat 'Mixed' dataset into a relational schema (Students, Countries).
 
 - **Data Integrity**: 02_data_etl.sql
 Implemented strict CHECK constraints and Foreign Key relationships to ensure zero data leakage.
